@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel = "stylesheet" href = "styles/signup.css">
+</head>
+<body background = "./images/signup/playstationbg.jpg">
+    <br>
+    <br>
+    <p class = "titletext">Become a part of the Community!</p>
+    <form class = "signupform" action="/signup" method="post">
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="name">
+        <br>
+        <label for="email">Email address: </label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="phone">Phone number: </label>
+        <input type="tel" name="phone" id="phone">
+        <br>
+        <input id = "submitbutton" type="submit" value="Sign up">
+      </form>
+</body>
+</html>

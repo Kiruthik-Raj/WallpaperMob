@@ -1,0 +1,26 @@
+body {
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.titletext{
+    font-size: 70px;
+}
+
+.signupform{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+#name{
+    background-color: transparent;
+    border-radius: 5px 5px 5px 5px;
+}

@@ -1,0 +1,52 @@
+
+
+body {
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+    align-items: center;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.description-text{
+    font-size: 20px;
+}
+
+.profile-card img {
+    align-items: center;
+    border-style: solid;
+    height: 130px;
+    width: 130px;
+    border-radius:50%;
+    border-color: white;
+}
+    
+.titletext {
+    font-size: 100px;
+}
+
+ion-icon{
+    height: 50px;
+    width: 50px;
+    color: white;
+    transition: color 0.15s;
+    margin: 15px 15px 15px 15px;
+}
+
+
+.twitter-button:hover{
+    color: #00acee;
+}
+
+.github-button:hover{
+    color: #0cc954;
+}
+
+.linkedin-button:hover{
+    color: #0072b1;
+}

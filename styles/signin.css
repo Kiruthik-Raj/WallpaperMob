@@ -1,0 +1,58 @@
+.signinform{
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: transparent;
+    border-radius: 5px;
+    background-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+
+
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-sizing: border-box; 
+  }
+  
+
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    border-color: transparent; 
+    outline: none;
+  }
+  
+
+
+  #submitbutton {
+    background-color: transparent; 
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+  }
+
+  #submitbutton:hover{
+    background-color: rgba(10, 10, 72, 0.254);
+  }
+  
+input[type="email"]::placeholder,
+input[type="password"]::placeholder {
+  color: #999;
+}

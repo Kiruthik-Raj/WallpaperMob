@@ -1,9 +1,3 @@
-const signupButton = document.getElementById('signupbutton');
-const signinButton = document.getElementById('signinbutton');
-
-signupButton.addEventListener('click',() => {window.open("signup.html", target = "_blank")});
-signinButton.addEventListener('click',() => {window.open("signin.html", target = "_blank")});
-
 window.addEventListener("scroll", function() {
     const documentHeight = document.documentElement.scrollHeight;
     const windowHeight = window.innerHeight;

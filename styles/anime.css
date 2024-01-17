@@ -35,15 +35,6 @@ p {
     font-size: 100px;
 }
 
-.footertext {
-    font-family:'Times New Roman', Times, serif;
-    justify-content: baseline;
-    font-style: normal;
-    font-weight: bold;
-    font-size: smaller;
-    margin: 15px 15px 15px 15px;
-    width: 400px;
-}
 
 .dropdown-content{
     margin: 5px 5px 5px 5px;

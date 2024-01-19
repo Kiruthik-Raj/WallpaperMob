@@ -26,6 +26,8 @@ body {
     color: white;
 }
 
+
+
 p {
     font-family: 'Poppins', sans-serif;
     text-align: center;
@@ -52,14 +54,14 @@ p {
 
 
 .menu-content a{
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto', sans-serif;
     padding: 6px 24px;
     text-decoration: none;
     color: white;
     background-color: transparent;
     transition: box-shadow 0.15s;
     border-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
 }
 
 .menu-content a:hover{

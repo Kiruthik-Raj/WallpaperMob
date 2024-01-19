@@ -26,6 +26,11 @@ body {
     color: white;
 }
 
+body div {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
 p {
     font-family: 'Poppins', sans-serif;
     text-align: center;

@@ -24,6 +24,39 @@ body {
     background-attachment: fixed;
     text-align: center;
     color: white;
+    background-position: center;
+    background-size: 100% auto;
+
+    @media (max-width: 767px)
+    {
+        background-size: 100% auto;
+    }
+}
+
+
+
+.search-bar-content input{
+    border: solid 1px #ccc;
+    width: 400px;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px;
+    margin: 7px;
+}
+
+.search-bar-content button{
+    border: solid 1px #ccc;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px;
+    margin: 7px;
+}
+
+.search-bar-content button:hover{
+    cursor: pointer;
+}
+
+.search-bar-content input:focus{
+    outline: none;
+
 }
 
 

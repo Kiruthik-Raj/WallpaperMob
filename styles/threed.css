@@ -24,8 +24,9 @@ body {
     background-attachment: fixed;
     text-align: center;
     color: white;
+    background-position: center;
+    background-size: 100% auto;
 }
-
 
 
 p {

@@ -14,6 +14,7 @@ function extractImages() {
 function searchWallpapers() {
   const searchQuery = searchInput.value.toLowerCase();
   searchResultsDiv.innerHTML = "";
+
   try {
     const matches = images.filter((image) => image.title.toLowerCase().includes(searchQuery));
     if (matches.length > 0) {
@@ -30,9 +31,15 @@ function searchWallpapers() {
       noResultText.innerText = "No Matches Found";
       searchResultsDiv.appendChild(noResultText);
     }
+
+    
+
   } catch (error) {
     console.error("Error occurred while searching:", error);
   }
+
+
+
 }
 
 extractImages();

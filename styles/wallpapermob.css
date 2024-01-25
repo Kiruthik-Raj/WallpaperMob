@@ -113,7 +113,7 @@ p {
 
   @media (max-width: 767px) {
     body {
-      width: 100%;
+      width: 1080px;
     }
   
     img {

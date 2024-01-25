@@ -45,9 +45,7 @@ body {
     outline: none;
 }
 
-#search-results{
 
-}
 
 
 
@@ -103,4 +101,24 @@ p {
    background-color: #b4c0e9; 
  }
 
- 
+@media (min-width: 768px) {
+    body {
+      width: 1920px;
+      margin: 0 auto;
+      padding: 5px;
+    }
+
+  }
+  
+
+  @media (max-width: 767px) {
+    body {
+      width: 100%;
+    }
+  
+    img {
+      width: 100%;
+      float: none;
+      margin: 0 auto;
+    }
+  }
